@@ -1,0 +1,17 @@
+#
+# Brief		: configuration de l'outil de rapport DNS
+# File		: Rapport DNS.yml
+# Date		: 10th March 2009
+# Version	: 0.0.1
+# Author	: Copyright (C) 2009 François BAYART <francois AT famipow DOT com>
+#
+ 
+hostname: new-srv
+ldap:
+  user: cn=admin, o=customer, c=fr
+  password: XXXXXXXX
+  infile: customer-orig.ldif
+  outfile: customer-clean.ldif
+imap:
+  user: cyrus
+  password: YYYYY
