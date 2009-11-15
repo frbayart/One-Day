@@ -1,1 +1,6 @@
 Sun Nov 15 12:30:22 CET 2009
+
+INSTALL RUBY MYSQL GEM
+sudo env ARCHFLAGS="-arch i386" gem install mysql -- \
+  --with-mysql-dir=/Applications/MAMP/Library/ --with-mysql-lib=/Applications/MAMP/Library/lib \
+  --with-mysql-include=/Applications/MAMP/Library/include
