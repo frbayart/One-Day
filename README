@@ -4,3 +4,6 @@ INSTALL RUBY MYSQL GEM
 sudo env ARCHFLAGS="-arch i386" gem install mysql -- \
   --with-mysql-dir=/Applications/MAMP/Library/ --with-mysql-lib=/Applications/MAMP/Library/lib \
   --with-mysql-include=/Applications/MAMP/Library/include
+
+Fri Apr 15 20:25:07 CEST 2011
+git agregator test
